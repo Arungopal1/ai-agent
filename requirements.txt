@@ -1,0 +1,13 @@
+# Runtime dependencies (installed by Vercel at build time)
+fastapi>=0.115,<1.0
+uvicorn>=0.30
+pydantic>=2.7
+python-multipart>=0.0.9
+httpx>=0.27
+openai>=1.55
+pypdf>=5.0
+python-dotenv>=1.0
+
+# Optional web-search provider for the "web_search" tool.
+# The tool degrades gracefully if this package is missing.
+ddgs>=9.0
